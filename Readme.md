@@ -14,7 +14,7 @@ A small Arduino night light that your team builds together while practicing Git 
 
 **Project Manager:** Rowankost
 
-**Developer A (Sensor):** Kamran-ship-it
+**Developer A (Sensor):** Kamran Shirbacheh Kamran-ship-it
 
 **Developer B (LED):** Your Name (your GitHub username)
 
