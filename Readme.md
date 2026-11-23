@@ -12,7 +12,7 @@ A small Arduino night light that your team builds together while practicing Git 
 
 ## Team
 
-**Project Manager:** Rowankost
+**Project Manager:** Rowan Kost (rowankost)
 
 **Developer A (Sensor):** Kamran Shirbacheh Kamran-ship-it
 
