@@ -10,6 +10,27 @@ void setLed(int brightness) {
 // Moves the LED toward the target brightness.
 void fadeTowards(int target) {
   // TODO Task 2 (Developer B): fade in small steps instead of jumping.
+  const int fade_step = 1;
+  if(ledBrightness < target){
+    while(ledBrightness < target){
+      ledBrightness += fade_step;
+      setLed(target);
+      delay(10);
+      if(ledBrightness == target){
+        break;
+      }
+    }
+  }
+  if(ledBrightness > target){
+    while(ledBrightness > target){
+      ledBrightness -= fade_step;
+      setLed(target);
+      delay(10);
+      if(ledBrightness == target){
+        break;
+      }
+    }
+  }
   setLed(target);
 }
 
